@@ -1,0 +1,97 @@
+html{
+    background-image: linear-gradient(#00F490, #00BBC9);
+}
+
+body {
+    padding:20px 50px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    background-image: linear-gradient(#00F490, #00BBC9);
+
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.drop-shadow {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.335);
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.171);
+    transition-duration: 0.5s;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.img-thumbnail {
+
+    background-color: rgba(255, 255, 255, 0);
+  
+    border: none;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border: 1px solid white;
+    margin: none;
+    width: auto;
+   
+}
+
+.dropdown-menu a {
+    text-align: center;
+} 
+
+.dropdown-item {
+     
+        display: block;
+        width: 100%;
+        padding: .25rem 1.5rem;
+        margin:0;
+        font-weight: 400;
+        color: white;
+        text-align: inherit;
+        white-space: nowrap;
+        background-color: transparent;
+        
+}
+
+li {
+    margin-left: 30px;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #ffffff;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(images/icon-burger-menu.svg);
+    }
+nav{
+    margin: none;
+}
+
+.rounded-right {
+    border-top-right-radius: 1.25rem!important;
+    border-bottom-right-radius: 1.25rem!important;
+ }
+
+.rounded-left {
+    border-top-left-radius: 1.25rem!important;
+    border-bottom-left-radius: 1.25rem!important; 
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: #00BBC9;
+    border-color: #00BBC9;
+}
+
